@@ -32,7 +32,34 @@
 
     <div>
       <!-- Home -->
-      <section id="home">HOME</section>
+      <section id="home">
+        <div id="port-img">
+          <div id="type-info">
+            <h1>Hi,</h1>
+            <h1 id="user-detail-name">I'm Divyanshu Rawat,</h1>
+            <h1><span class="auto-type"></span></h1>
+          </div>
+          <div id="contact-container">
+            <button id="Contact">Contact Me 🠋</button>
+          </div>
+          <div id="contact-links">
+            <a id="contact-github" href="https://github.com/Divyanshu766"
+              ><img src="/images/icons8-github-30.png" alt="github"
+            /></a>
+            <a
+              id="contact-linkedin"
+              href="https://www.linkedin.com/in/divyanshu-rawat-28348826b"
+              ><img src="/images/icons8-linkedin-30 (1).png" alt="linkedin"
+            /></a>
+            <a href="#"
+              ><img src="/images/icons8-instagram-30.png" alt="instagram"
+            /></a>
+            <a href="#"
+              ><img src="/images/icons8-twitter-circled-30.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
       <!-- About  -->
       <section id="about" class="about section">ABOUT</section>
       <!-- Skill -->
@@ -43,4 +70,22 @@
       <section id="contact">Contact</section>
     </div>
   </body>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    //Dynamic Typing :-
+    var typed = new Typed(".auto-type", {
+      strings: ["A Full Stack Web Developer"],
+      typeSpeed: 120,
+      backSpeed: 50,
+      loop: true,
+    });
+  </script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
 </html>
