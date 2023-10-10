@@ -240,3 +240,17 @@ nav > h1 {
 .links-buttons > a:hover {
   background-color: rgb(84, 83, 83);
 }
+
+/* Contact */
+#contactHeading {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.895);
+  color: white;
+  padding: 10px;
+  margin-top: 2%;
+}
+
+#contact-details {
+  text-align: center;
+}
