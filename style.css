@@ -90,7 +90,7 @@ nav > h1 {
   font-size: 30px;
   letter-spacing: 3px;
 }
-#Contact {
+#resume-button-2 {
   padding: 10px 25px;
   background-color: rgba(0, 0, 0, 0.848);
   color: white;
@@ -99,6 +99,7 @@ nav > h1 {
   letter-spacing: 1px;
   margin-left: 4%;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 #Contact:hover {
