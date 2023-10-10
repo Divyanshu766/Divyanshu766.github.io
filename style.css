@@ -113,3 +113,54 @@ nav > h1 {
   display: flex;
   gap: 2%;
 }
+
+/* About Section */
+
+#about {
+  width: 90%;
+  margin: auto;
+}
+
+#intro {
+  display: flex;
+  margin-top: 10%;
+}
+
+#myImage {
+  display: flex;
+  align-items: center;
+}
+#data {
+  width: 80%;
+}
+
+#intro > div > img {
+  width: 100%;
+  clip-path: circle();
+}
+
+#intro > div > div > h3 {
+  font-family: "Exo 2", sans-serif;
+  margin-top: 30px;
+  font-size: 20px;
+  color: rgb(84, 82, 82);
+}
+#intro > div > h1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  margin-top: 75px;
+  margin-left: 5%;
+  margin-bottom: 0;
+}
+#data > div > h3 {
+  width: 90%;
+  line-height: 1.8;
+}
+#data > div > h3 span {
+  color: rgba(255, 0, 0, 0.605);
+}
+
+#data > div {
+  display: flex;
+  justify-content: center;
+}
