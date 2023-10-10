@@ -119,6 +119,7 @@ nav > h1 {
 #about {
   width: 90%;
   margin: auto;
+  margin-bottom: 80px;
 }
 
 #intro {
@@ -134,7 +135,7 @@ nav > h1 {
   width: 80%;
 }
 
-#intro > div > img {
+#intro > div > .home-img {
   width: 100%;
   clip-path: circle();
 }
@@ -163,4 +164,31 @@ nav > h1 {
 #data > div {
   display: flex;
   justify-content: center;
+}
+
+/* Skills Section */
+#skill-heading {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.895);
+  color: white;
+  padding: 10px;
+}
+
+/* Skills */
+#skillContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10%;
+  width: 80%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.skills-card-name {
+  text-align: center;
+}
+
+.skills-card-img {
+  width: 100%;
 }
