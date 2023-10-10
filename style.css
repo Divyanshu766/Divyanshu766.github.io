@@ -1,0 +1,26 @@
+/* Common */
+
+* {
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* NavBar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightcyan;
+  padding: 10px;
+}
+
+#nav-menu {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#nav-menu > a {
+  text-decoration: none;
+}
