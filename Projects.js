@@ -65,17 +65,19 @@ projects.map((element) => {
 
   //button section :-
   const buttonContainer = document.createElement("div");
-  buttonContainer.classList.add('links-buttons');
+  buttonContainer.classList.add("links-buttons");
 
   //Links :-
   const github = document.createElement("a");
   github.innerText = "Github";
   github.href = element.github;
+  github.target = "_blank";
   github.classList.add("project-github-link");
 
   const netlify = document.createElement("a");
   netlify.innerText = "Netlify";
   netlify.href = element.netlify;
+  netlify.target = "_blank";
   netlify.classList.add("project-deployed-link");
 
   //Append :-
