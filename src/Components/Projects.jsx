@@ -4,7 +4,7 @@ const Projects = () => {
   const [data, setData] = useState([
     {
       name: "Glossier",
-      image: "/Projects/Glossier.jpg",
+      image: "https://i.ibb.co/pv229h0/Glossier.jpg",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
       description: "Ecommerce Website, where you can buy diff things",
       tech: [" HTML ", " CSS ", " JavaScript "],
@@ -13,7 +13,7 @@ const Projects = () => {
     },
     {
       name: "Big-Basket",
-      image: "/Projects/Glossier.jpg",
+      image: "https://i.ibb.co/pv229h0/Glossier.jpg",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
       description: "Ecommerce Website, where you can buy diff things",
       tech: [" HTML ", " CSS ", " JavaScript "],
@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       name: "OminiFood",
-      image: "/Projects/Glossier.jpg",
+      image: "https://i.ibb.co/pv229h0/Glossier.jpg",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
       description: "Ecommerce Website, where you can buy diff things",
       tech: [" HTML ", " CSS ", " JavaScript "],
@@ -31,7 +31,7 @@ const Projects = () => {
     },
     {
       name: "Calculator",
-      image: "/Projects/Glossier.jpg",
+      image: "https://i.ibb.co/pv229h0/Glossier.jpg",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
       description: "Ecommerce Website, where you can buy diff things",
       tech: [" HTML ", " CSS ", " JavaScript "],

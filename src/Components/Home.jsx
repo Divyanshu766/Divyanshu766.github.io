@@ -21,26 +21,32 @@ const Home = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src="/images/icons8-github-30.png" alt="github" />
+            <img
+              src="https://i.ibb.co/TvVrP3C/icons8-github-30.png"
+              alt="github"
+            />
           </a>
           <a
-            id="contact-linkedin"
-            href="https://www.linkedin.com/in/divyanshu-rawat-28348826b"
+            id={"contact-linkedin"}
+            href={"https://www.linkedin.com/in/divyanshu-rawat-28348826b"}
             target="_blank"
             rel="noreferrer"
           >
-            <img src="../assets/icons8-linkedin-30 (1).png" alt="linkedin" />
+            <img
+              src="https://i.ibb.co/fvCGQmx/icons8-linkedin-30-1.png"
+              alt="linkedin"
+            />
           </a>
           <a href="#">
             <img
-              src="/images/icons8-instagram-30.png"
+              src="https://i.ibb.co/qg3Gh7c/icons8-instagram-30.png"
               alt="instagram"
               target="_blank"
             />
           </a>
           <a href="#">
             <img
-              src="/images/icons8-twitter-circled-30.png"
+              src="https://i.ibb.co/ph1stHw/icons8-twitter-circled-30.png"
               alt="twitter"
               target="_blank"
             />

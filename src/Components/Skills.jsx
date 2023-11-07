@@ -2,23 +2,23 @@ import { useState } from "react";
 const Skills = () => {
   const [data, setData] = useState([
     {
-      Image: `Skills/logo-html5.svg`,
+      Image: `https://img.icons8.com/wired/250/html-5.png`,
       name: "HTML",
     },
     {
-      Image: `/Skills/logo-css3.svg`,
+      Image: `https://img.icons8.com/wired/250/css3.png`,
       name: "CSS",
     },
     {
-      Image: `/Skills/logo-nodejs.svg`,
+      Image: `https://img.icons8.com/wired/250/javascript-logo.png`,
       name: "JS",
     },
     {
-      Image: "/Skills/logo-react.svg",
+      Image: "https://img.icons8.com/wired/250/react.png",
       name: "React",
     },
     {
-      Image: "/Skills//121152.png",
+      Image: "https://img.icons8.com/quill/250/java-coffee-cup-logo.png",
       name: "Java",
     },
   ]);
@@ -30,7 +30,12 @@ const Skills = () => {
           {data.map((element) => {
             return (
               <div key={element.name}>
-                <img src={element.Image} className="skills-card-img" />
+                <img
+                  src={element.Image}
+                  className="skills-card-img"
+                  width="140"
+                  height="140"
+                />
                 <h4 className="skills-card-name">{element.name}</h4>
               </div>
             );
