@@ -277,6 +277,22 @@ picture > img {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+/* Calender */
+
+#gitCalendar {
+  padding: 40px 0;
+}
+
+.react-activity-calendar__scroll-container > svg {
+  margin: auto;
+}
+
+.react-activity-calendar__footer {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+
 /* Contact */
 #contactHeading {
   text-align: center;

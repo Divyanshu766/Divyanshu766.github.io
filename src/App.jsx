@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./Components/About";
+import Calendar from "./Components/Calendar";
 import Contact from "./Components/Contact";
 import Github from "./Components/Github";
 import Home from "./Components/Home";
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Skills />
         <Github />
+        <Calendar />
         <Projects />
         <Contact />
       </div>
