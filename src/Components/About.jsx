@@ -18,7 +18,8 @@ const About = () => {
                 trained at <span>Masai School</span>. My passion for learning
                 drives me to explore the ever-evolving world of technology. Join
                 me as I blend music and coding, creating a unique fusion of art.
-                Welcome to my creative World!
+                Welcome to my creative World! Good in JavaScript , React
+                ,CSS,HTML
               </h3>
             </div>
           </div>

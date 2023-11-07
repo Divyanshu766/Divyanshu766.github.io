@@ -24,7 +24,7 @@ const Skills = () => {
   ]);
   return (
     <>
-      <section id="skills">
+      <section id="skills" className="skills-card">
         <div id="skill-heading">Skills</div>
         <div id="skillContainer">
           {data.map((element) => {
