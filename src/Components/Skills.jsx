@@ -24,12 +24,12 @@ const Skills = () => {
   ]);
   return (
     <>
-      <section id="skills" className="skills-card">
+      <section id="skills">
         <div id="skill-heading">Skills</div>
         <div id="skillContainer">
           {data.map((element) => {
             return (
-              <div key={element.name}>
+              <div className="skills-card" key={element.name}>
                 <img
                   src={element.Image}
                   className="skills-card-img"
