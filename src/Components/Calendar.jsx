@@ -10,7 +10,7 @@ const Calendar = () => {
         <GitHubCalendar
           colorScheme={"dark"}
           blockSize={22}
-          username="grubersjoe"
+          username="divyanshu766"
         />
       </div>
     </section>
