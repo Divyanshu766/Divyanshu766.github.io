@@ -294,6 +294,10 @@ picture > img {
 }
 
 /* Contact */
+#contact {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.459);
+}
+
 #contactHeading {
   text-align: center;
   font-size: 30px;
@@ -302,7 +306,36 @@ picture > img {
   padding: 10px;
   margin-top: 2%;
 }
+.personal-info {
+  list-style: none;
+}
+
+.personal-info > ul > li {
+  font-size: 20px;
+  color: rgba(27, 27, 27, 0.849);
+  margin: 20px 0;
+  text-align: start;
+
+  list-style: none;
+}
+
+.personal-links {
+  list-style: square;
+}
+
+.personal-links > ul > li {
+  margin: 20px 0;
+  list-style: none;
+}
 
 #contact-details {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.personal-links > ul {
+  display: flex;
+  gap: 50px;
 }
