@@ -16,7 +16,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 5px;
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
@@ -300,6 +300,12 @@ nav > h1 {
   width: 100%;
 }
 
+#github-stats,
+#github-streak {
+  display: flex;
+  align-items: center;
+}
+
 picture > img {
   border: 2px solid rgba(160, 157, 157, 0.637);
   border-radius: 5px;
@@ -383,7 +389,7 @@ picture > img {
 
 /* Responsiveness */
 
-@media screen and (min-width: 1100px) and (max-width: 1380px) {
+@media screen and (min-width: 1160px) and (max-width: 1380px) {
   nav > h1 {
     font-size: 25px;
   }

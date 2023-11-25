@@ -12,7 +12,7 @@ const Github = () => {
             />
           </a>
         </div>
-        <div>
+        <div id="github-stats">
           <picture>
             <source
               srcSet="
@@ -35,7 +35,7 @@ const Github = () => {
         <div>
           <a href="https://github.com/divyanshu766/convoychat">
             <img
-              height="195"
+              height="200"
               align="center"
               src="https://github-readme-stats.vercel.app/api/top-langs?username=divyanshu766&layout=compact&langs_count=8&card_width=200"
               id="github-top-langs"
