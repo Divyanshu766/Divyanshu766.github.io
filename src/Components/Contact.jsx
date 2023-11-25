@@ -7,9 +7,44 @@ const Contact = () => {
       <div id="contact-details">
         <div className="personal-info">
           <ul>
-            <li>Email : divyanshu76688@gmail.com</li>
-            <li>Mobile : 7668855882</li>
-            <li>Residence : Ranipokhari - Dehradun</li>
+            <li className="gmail">
+              <img
+                src="https://img.icons8.com/fluency/144/gmail-new.png"
+                width="30"
+                height="30"
+              />{" "}
+              <span>
+                <a
+                  href="https://mail.google.com/mail/u/0/?to=divyanshu76688@gmail.com&su=SUBJECT&body=BODY&fs=1&tf=cm"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Divyanshu76688@gmail.com
+                </a>
+              </span>
+            </li>
+            <li className="contact-footer">
+              <img
+                src="https://img.icons8.com/dusk/64/000000/phone-disconnected.png"
+                width="30"
+                height="30"
+              />{" "}
+              <span>
+                <a href="https://mail.google.com/mail/u/0/?to=divyanshu76688@gmail.com&su=SUBJECT&body=BODY&fs=1&tf=cm">
+                  7668855882
+                </a>
+              </span>{" "}
+            </li>
+            <li className="home-footer">
+              <img
+                src="https://img.icons8.com/office/250/home--v1.png"
+                width="30"
+                height="30"
+              />{" "}
+              <span>
+                <a href="#">Deheradun</a>
+              </span>{" "}
+            </li>
           </ul>
         </div>
 

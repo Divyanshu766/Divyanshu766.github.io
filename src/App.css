@@ -205,6 +205,11 @@ nav > h1 {
   margin-bottom: 4%;
 }
 
+.skills-card-img {
+  width: 140px;
+  height: 140px;
+}
+
 .skills-card-name {
   text-align: center;
 }
@@ -385,6 +390,21 @@ picture > img {
 .personal-links > ul {
   display: flex;
   gap: 50px;
+}
+
+.gmail,
+.contact-footer,
+.home-footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.gmail > span > a,
+.contact-footer > span > a,
+.home-footer > span > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.727);
+  font-weight: bold;
 }
 
 /* Responsiveness */
