@@ -410,6 +410,7 @@ picture > img {
 /* Responsiveness */
 
 @media screen and (min-width: 1160px) and (max-width: 1380px) {
+  /* NAVBAR */
   nav > h1 {
     font-size: 25px;
   }
@@ -418,7 +419,87 @@ picture > img {
     gap: 70px;
   }
 
+  /* Github */
+
   #github-streak-stats {
     width: 95%;
+  }
+
+  /* Home */
+  #intro > div > div > h3 {
+    font-size: 19px;
+  }
+
+  /* Skills */
+
+  .skills-card-img {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1160px) {
+  nav > h1 {
+    font-size: 20px;
+  }
+
+  #nav-menu {
+    gap: 50px;
+  }
+
+  /* Github */
+
+  #github-streak-stats {
+    width: 95%;
+  }
+
+  /* Home */
+  #intro > div > div > h3 {
+    font-size: 17px;
+  }
+
+  #data > h1 {
+    margin: 40px;
+  }
+
+  #intro > div > h1 {
+    margin-top: 40px;
+  }
+  #type-info {
+    font-size: 25px;
+  }
+
+  /* About */
+  #intro > div > .home-img {
+    width: 80%;
+  }
+
+  /* Skills */
+
+  .skills-card-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Project */
+  #projectContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #projects {
+    padding-bottom: 20px;
+  }
+
+  .project-card > img {
+    width: 100%;
+    margin: auto;
+  }
+  .project-card {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.414);
   }
 }
