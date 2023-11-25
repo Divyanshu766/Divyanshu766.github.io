@@ -17,7 +17,7 @@ const Home = () => {
                     "Express",
                     "Mongodb",
                   ]}
-                  loop={10}
+                  loop={0}
                   cursor
                   cursorStyle="_"
                   typeSpeed={100}

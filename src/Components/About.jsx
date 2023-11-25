@@ -14,12 +14,14 @@ const About = () => {
             <h1>About</h1>
             <div>
               <h3 id="user-detail-intro">
-                I'm Divyanshu Rawat, a B.A. student turned coding enthusiast,
-                trained at <span>Masai School</span>. My passion for learning
-                drives me to explore the ever-evolving world of technology. Join
-                me as I blend music and coding, creating a unique fusion of art.
-                Welcome to my creative World! Good in JavaScript , React
-                ,CSS,HTML
+                Hey, I'm Divyanshu Rawat, and I'm learning to create cool stuff
+                on the internet at <span>Masai School</span>. I'm really into
+                tech and know my way around <span>MongoDB</span>,{" "}
+                <span>Express.js</span>, <span>React</span>, and{" "}
+                <span>Node.js</span>. I like keeping up with the latest tech
+                trends because I want to use the coolest tools. Let's team up
+                and make awesome things happen with code – making the internet
+                more awesome !!! 💻✨
               </h3>
             </div>
           </div>

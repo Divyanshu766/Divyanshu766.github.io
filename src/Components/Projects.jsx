@@ -7,7 +7,7 @@ const Projects = () => {
       image: "https://i.ibb.co/pv229h0/Glossier.jpg",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
       description:
-        "Glossier, a premier beauty products website, offers a curated selection of luxury beauty items that enhance your natural beauty. Explore our collection for a transformative experience in skincare and makeup.",
+        "Glossier, a premier beauty products website, offers a curated selection of luxury beauty items that enhance your natural beauty, leaving you looking and feeling your best. Explore our collection for a transformative experience in skincare and makeup.",
       tech: [" HTML ", " CSS ", " JavaScript "],
       github: `https://github.com/Sushil1603/Project-Choice-Rice`,
       netlify: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
@@ -24,18 +24,20 @@ const Projects = () => {
     },
     {
       name: "OminiFood",
-      image: "https://i.ibb.co/pv229h0/Glossier.jpg",
+      image: "https://i.ibb.co/sC8NG2v/WoodFans.png",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
-      description: "Ecommerce Website, where you can buy diff things",
+      description:
+        "Step into Wood Fans, your foremost destination for premium and sustainable furniture solutions. Elevate your living spaces with our exquisite designs, creating havens of comfort and style that reflect your unique taste. ",
       tech: [" HTML ", " CSS ", " JavaScript "],
       github: `https://github.com/Sushil1603/Project-Choice-Rice`,
       netlify: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
     },
     {
-      name: "Calculator",
+      name: "Dummy Project",
       image: "https://i.ibb.co/pv229h0/Glossier.jpg",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
-      description: "Ecommerce Website, where you can buy diff things",
+      description:
+        "Step into Wood Fans, your foremost destination for premium and sustainable furniture solutions. Elevate your living spaces with our exquisite designs, creating havens of comfort and style that reflect your unique taste. ",
       tech: [" HTML ", " CSS ", " JavaScript "],
       github: `https://github.com/Sushil1603/Project-Choice-Rice`,
       netlify: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
