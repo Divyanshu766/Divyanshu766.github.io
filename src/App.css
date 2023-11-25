@@ -115,6 +115,20 @@ nav > h1 {
   gap: 2%;
 }
 
+.type-write {
+  .App {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: green;
+  }
+}
+
 /* About Section */
 
 #about {

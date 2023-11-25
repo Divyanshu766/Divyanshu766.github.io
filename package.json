@@ -13,7 +13,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-github-calendar": "^4.0.2",
-    "react-tooltip": "^5.22.0"
+    "react-simple-typewriter": "^5.0.1",
+    "react-tooltip": "^5.22.0",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

@@ -4,7 +4,7 @@ const Navbar = () => {
       <div>
         <div>
           <nav>
-            <h1>- Divyanshu -</h1>
+            <h1> {"< Divyanshu >"} </h1>
             <div id="nav-menu">
               <a href="#home" className="nav-link home">
                 Home

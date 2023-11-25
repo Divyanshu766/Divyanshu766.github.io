@@ -1,12 +1,31 @@
+import { Typewriter } from "react-simple-typewriter";
 const Home = () => {
   return (
     <section id="home">
       <div id="port-img">
         <div id="type-info">
           <h1>Hi,</h1>
-          <h1 id="user-detail-name">I'm Divyanshu Rawat,</h1>
+          <h1 id="user-detail-name">{`I'm Divyanshu Rawat,`}</h1>
           <h1>
-            <span className="auto-type">I'm a software developer</span>
+            <span className="auto-type">
+              <div className="App">
+                <Typewriter
+                  words={[
+                    "A MERN Stack Developer",
+                    "JavaScript",
+                    "React",
+                    "Express",
+                    "Mongodb",
+                  ]}
+                  loop={10}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={100}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </div>
+            </span>
           </h1>
         </div>
         <div id="contact-container">
