@@ -3,7 +3,7 @@ const Github = () => {
     <section id="github">
       <div id="githubHeading">Github</div>
       <div id="githubStat">
-        <div>
+        <div id="github-streak">
           <a href="https://git.io/streak-stats">
             <img
               src="https://github-readme-streak-stats.herokuapp.com?user=divyanshu766&theme=transparent"
