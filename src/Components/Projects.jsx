@@ -23,14 +23,14 @@ const Projects = () => {
       netlify: `https://visionary-smakager-639150.netlify.app/`,
     },
     {
-      name: "OminiFood",
+      name: "Wood Fans",
       image: "https://i.ibb.co/sC8NG2v/WoodFans.png",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
       description:
         "Step into Wood Fans, your foremost destination for premium and sustainable furniture solutions. Elevate your living spaces with our exquisite designs, creating havens of comfort and style that reflect your unique taste. ",
       tech: [" HTML ", " CSS ", " JavaScript "],
-      github: `https://github.com/Sushil1603/Project-Choice-Rice`,
-      netlify: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
+      github: `https://github.com/1ashutoshverma/wood-fans`,
+      netlify: `https://wood-fans-team.vercel.app/`,
     },
     {
       name: "Dummy Project",
