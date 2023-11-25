@@ -257,6 +257,15 @@ nav > h1 {
   background-color: rgb(84, 83, 83);
 }
 
+.project-heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.description {
+  color: rgb(60, 60, 60);
+}
+
 /* Gihub */
 #githubHeading {
   text-align: center;

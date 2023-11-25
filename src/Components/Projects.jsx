@@ -6,19 +6,21 @@ const Projects = () => {
       name: "Glossier",
       image: "https://i.ibb.co/pv229h0/Glossier.jpg",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
-      description: "Ecommerce Website, where you can buy diff things",
+      description:
+        "Glossier, a premier beauty products website, offers a curated selection of luxury beauty items that enhance your natural beauty. Explore our collection for a transformative experience in skincare and makeup.",
       tech: [" HTML ", " CSS ", " JavaScript "],
       github: `https://github.com/Sushil1603/Project-Choice-Rice`,
       netlify: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
     },
     {
       name: "Big-Basket",
-      image: "https://i.ibb.co/pv229h0/Glossier.jpg",
+      image: "https://i.ibb.co/Zmfp0yd/bigbasket.jpg",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
-      description: "Ecommerce Website, where you can buy diff things",
+      description:
+        "Discover unbeatable deals on grocery products at BigBasket, your ultimate online platform for affordable shopping. Experience convenience and savings as you browse and purchase a wide range of grocery items at budget-friendly prices.",
       tech: [" HTML ", " CSS ", " JavaScript "],
-      github: `https://github.com/Sushil1603/Project-Choice-Rice`,
-      netlify: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
+      github: `https://github.com/AkshaykumarLilani/big-basket-clone`,
+      netlify: `https://visionary-smakager-639150.netlify.app/`,
     },
     {
       name: "OminiFood",
@@ -48,12 +50,17 @@ const Projects = () => {
             return (
               <div key={element.name} className="project-card">
                 <img src={element.image} />
-                <h4 className="project-title">Title : {element.name}</h4>
+                <h4 className="project-title">
+                  <span className="project-heading">Title :</span>{" "}
+                  <span className="description">{element.name}</span>
+                </h4>
                 <h5 className="project-description">
-                  Description : {element.description}
+                  <span className="project-heading">Description</span> :{" "}
+                  <span className="description">{element.description}</span>
                 </h5>
                 <h5 className="project-tech-stack">
-                  Tech : {element.tech.join(", ")}
+                  <span className="project-heading">Tech :</span>{" "}
+                  <span className="description">{element.tech.join(", ")}</span>
                 </h5>
 
                 <div className="links-buttons">
