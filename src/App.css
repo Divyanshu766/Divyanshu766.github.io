@@ -438,13 +438,23 @@ picture > img {
   }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1160px) {
+@media screen and (min-width: 980px) and (max-width: 1160px) {
+  /* Navbar */
+
   nav > h1 {
     font-size: 20px;
   }
 
   #nav-menu {
-    gap: 50px;
+    gap: 40px;
+  }
+
+  .resume {
+    padding: 4px 12px;
+  }
+
+  #nav-menu > a {
+    padding: 4px 12px;
   }
 
   /* Github */
@@ -501,5 +511,102 @@ picture > img {
     justify-content: space-between;
     padding: 10px 20px;
     border: 1px solid rgba(128, 128, 128, 0.414);
+  }
+}
+
+@media screen and (min-width: 814px) and (max-width: 980px) {
+  /* Navbar */
+
+  nav > h1 {
+    font-size: 17px;
+  }
+
+  #nav-menu {
+    gap: 20px;
+  }
+
+  .resume {
+    padding: 4px 12px;
+  }
+
+  #nav-menu > a {
+    padding: 3px 9px;
+  }
+
+  /* Github */
+
+  #github-streak-stats {
+    width: 95%;
+  }
+
+  #githubStat {
+    gap: 10px;
+  }
+  /* Home */
+  #intro > div > div > h3 {
+    font-size: 12px;
+  }
+
+  #data > h1 {
+    margin: 40px;
+  }
+
+  #intro > div > h1 {
+    margin-top: 40px;
+  }
+  #type-info {
+    font-size: 23px;
+  }
+  #resume-button-2 {
+    padding: 8px 20px;
+  }
+
+  #contact-links {
+    margin-top: 30px;
+  }
+
+  /* About */
+  #intro > div > .home-img {
+    width: 80%;
+  }
+
+  /* Skills */
+
+  .skills-card-img {
+    width: 70px;
+    height: 70px;
+  }
+
+  /* Project */
+  #projectContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #projects {
+    padding-bottom: 20px;
+  }
+
+  .project-card > img {
+    width: 100%;
+    margin: auto;
+  }
+  .project-card {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.414);
+  }
+
+  /* Footer */
+
+  .gmail > span > a,
+  .contact-footer > span > a,
+  .home-footer > span > a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.727);
+    font-weight: bold;
+    font-size: 15px;
   }
 }
