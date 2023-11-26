@@ -20,6 +20,10 @@ nav {
   margin: auto;
 }
 
+.navbar-line {
+  display: none;
+}
+
 nav > h1 {
   font-size: 30px;
 }
@@ -608,5 +612,111 @@ picture > img {
     color: rgba(0, 0, 0, 0.727);
     font-weight: bold;
     font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 820px) {
+  .navbar-line {
+    display: block;
+  }
+
+  .navbar-line {
+    cursor: pointer;
+  }
+
+  #nav-menu {
+    flex-direction: column;
+    margin: auto;
+    padding-left: 5%;
+  }
+  nav {
+    align-items: start;
+    height: 100vh;
+  }
+  .resume {
+    display: none;
+  }
+
+  nav > h1 {
+    display: none;
+  }
+
+  /* Home */
+  #type-info {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #contact-container {
+    text-align: center;
+  }
+
+  #contact-links {
+    justify-content: center;
+    margin-top: 6%;
+  }
+
+  /* About */
+  #intro {
+    flex-direction: column;
+    align-items: center;
+  }
+  #intro > div > h1,
+  #intro > div > div > h3 {
+    text-align: center;
+  }
+  #myImage {
+    display: flex;
+    justify-content: center;
+  }
+
+  #intro > div > .home-img {
+    width: 80%;
+  }
+
+  /* Skills */
+  .skills-card-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Github */
+  #githubStat {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Project */
+  #projectContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #projects {
+    padding-bottom: 20px;
+  }
+
+  .project-card > img {
+    width: 100%;
+    margin: auto;
+  }
+  .project-card {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.414);
+  }
+
+  /* Contact */
+  .gmail > span > a,
+  .contact-footer > span > a,
+  .home-footer > span > a {
+    font-size: 17px;
+  }
+
+  .personal-links > ul {
+    gap: 40px;
   }
 }

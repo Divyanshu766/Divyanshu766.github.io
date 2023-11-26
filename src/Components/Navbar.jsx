@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const Navbar = () => {
   return (
     <>
@@ -35,6 +37,10 @@ const Navbar = () => {
               >
                 Resume
               </button>
+              <img
+                className="navbar-line"
+                src="https://img.icons8.com/ios/50/xbox-menu.png"
+              />
             </div>
           </nav>
           <hr />
