@@ -30,9 +30,11 @@ const Navbar = () => {
                 id="resume-button-1"
                 onClick={() => {
                   const url =
-                    "https://drive.google.com/file/d/1GcI8icfrjd0ANwx_cVyWq1IKwv1gTM3U/view?usp=sharing";
-
+                    "https://drive.google.com/file/d/1Hsmec9IAa6QAOYjHD7jLAcAx59sGopoC/view?usp=sharing";
+                  const download =
+                    "https://drive.google.com/uc?export=download&id=1Hsmec9IAa6QAOYjHD7jLAcAx59sGopoC";
                   window.open(url);
+                  window.location.href = download;
                 }}
               >
                 Resume
