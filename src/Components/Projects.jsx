@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Projects = () => {
-  const [data, setData] = useState([
+  const [data] = useState([
     {
       name: "Glossier",
       image: "https://i.ibb.co/pv229h0/Glossier.jpg",

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Contact = () => {
   return (
     <section id="contact">
@@ -18,6 +16,7 @@ const Contact = () => {
                   href="https://mail.google.com/mail/u/0/?to=divyanshu76688@gmail.com&su=SUBJECT&body=BODY&fs=1&tf=cm"
                   target="_blank"
                   rel="noreferrer"
+                  id="contact-email"
                 >
                   Divyanshu76688@gmail.com
                 </a>
@@ -30,7 +29,10 @@ const Contact = () => {
                 height="30"
               />{" "}
               <span>
-                <a href="https://mail.google.com/mail/u/0/?to=divyanshu76688@gmail.com&su=SUBJECT&body=BODY&fs=1&tf=cm">
+                <a
+                  id="contact-phone"
+                  href="https://mail.google.com/mail/u/0/?to=divyanshu76688@gmail.com&su=SUBJECT&body=BODY&fs=1&tf=cm"
+                >
                   7668855882
                 </a>
               </span>{" "}

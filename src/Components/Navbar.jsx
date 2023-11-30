@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const Navbar = () => {
   return (
     <>
@@ -24,10 +22,9 @@ const Navbar = () => {
                 Contact
               </a>
             </div>
-            <div>
+            <div id="resume-button-1">
               <button
                 className="nav-link resume"
-                id="resume-button-1"
                 onClick={() => {
                   const url =
                     "https://drive.google.com/file/d/1Hsmec9IAa6QAOYjHD7jLAcAx59sGopoC/view?usp=sharing";
