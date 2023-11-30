@@ -1,7 +1,7 @@
 import { Typewriter } from "react-simple-typewriter";
 const Home = () => {
   return (
-    <section id="home">
+    <section id="home" style={{ paddingTop: "50px" }}>
       <div id="port-img">
         <div id="type-info">
           <h1>Hi,</h1>
