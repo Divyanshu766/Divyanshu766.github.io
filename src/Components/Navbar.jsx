@@ -51,11 +51,12 @@ const Navbar = () => {
 
         <div id="mobile">
           <div
+            className="mobile-heading"
             onClick={() => {
               setBtn(!btn);
             }}
           >
-            {" "}
+            <h1> {"< Divyanshu >"} </h1>
             <img
               className="navbar-line"
               src="https://img.icons8.com/ios/50/xbox-menu.png"

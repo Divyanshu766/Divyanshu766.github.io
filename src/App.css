@@ -627,6 +627,7 @@ picture > img {
   .navbar-line {
     cursor: pointer;
   }
+
   #mobile {
     padding-top: 10px;
     display: flex;
@@ -635,6 +636,22 @@ picture > img {
     width: 100%;
     background-color: white;
     z-index: 1000;
+  }
+
+  #mobile > div {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
+  #mobile > div > h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  nav > h1 {
+    display: none;
   }
 
   #mobile > nav {
@@ -658,10 +675,6 @@ picture > img {
   }
 
   .resume {
-    display: none;
-  }
-
-  nav > h1 {
     display: none;
   }
 
@@ -754,6 +767,39 @@ picture > img {
   .navbar-line {
     cursor: pointer;
   }
+  #mobile {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+  }
+
+  #mobile > nav {
+    /* top: 50px; */
+    /* background-color: white; */
+    /* z-index: 1000; */
+  }
+  #mobile > div {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+  }
+  #mobile > div > h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+  }
+  nav > h1 {
+    display: none;
+  }
+
+  #computer {
+    display: none;
+  }
 
   #nav-menu {
     flex-direction: column;
@@ -766,10 +812,6 @@ picture > img {
     height: 100vh;
   }
   .resume {
-    display: none;
-  }
-
-  nav > h1 {
     display: none;
   }
 
