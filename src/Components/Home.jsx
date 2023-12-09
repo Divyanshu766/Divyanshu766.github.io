@@ -1,10 +1,10 @@
 import { Typewriter } from "react-simple-typewriter";
 const Home = () => {
   return (
-    <section id="home" style={{ paddingTop: "50px" }}>
+    <section id="home">
       <div id="port-img">
         <div id="type-info">
-          <h1>Hi,</h1>
+          <h1 className="type-info-hi">Hi,</h1>
           <h1 id="user-detail-name">{`I'm Divyanshu Rawat,`}</h1>
           <h1>
             <span className="auto-type">
