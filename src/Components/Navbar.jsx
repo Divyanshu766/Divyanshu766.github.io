@@ -3,6 +3,9 @@ import { useState } from "react";
 const Navbar = () => {
   const [btn, setBtn] = useState(false);
 
+  const links = () => {
+    return setBtn(false);
+  };
   return (
     <>
       <div>
@@ -66,19 +69,49 @@ const Navbar = () => {
             <nav>
               <h1> {"< Divyanshu >"} </h1>
               <div id="nav-menu">
-                <a href="#home" className="nav-link home">
+                <a
+                  onClick={() => {
+                    links();
+                  }}
+                  href="#home"
+                  className="nav-link home"
+                >
                   Home
                 </a>
-                <a href="#about" className="nav-link about">
+                <a
+                  onClick={() => {
+                    links();
+                  }}
+                  href="#about"
+                  className="nav-link about"
+                >
                   About
                 </a>
-                <a href="#skills" className="nav-link skills">
+                <a
+                  onClick={() => {
+                    links();
+                  }}
+                  href="#skills"
+                  className="nav-link skills"
+                >
                   Skills
                 </a>
-                <a href="#projects" className="nav-link projects">
+                <a
+                  onClick={() => {
+                    links();
+                  }}
+                  href="#projects"
+                  className="nav-link projects"
+                >
                   Projects
                 </a>
-                <a href="#contact" className="nav-link contact">
+                <a
+                  onClick={() => {
+                    links();
+                  }}
+                  href="#contact"
+                  className="nav-link contact"
+                >
                   Contact
                 </a>
               </div>
