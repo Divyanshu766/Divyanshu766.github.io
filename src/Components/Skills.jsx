@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
+
 const Skills = () => {
-  const [data, setData] = useState([
+  const [data] = useState([
     {
       Image: `https://img.icons8.com/fluency/250/html-5.png`,
       name: "HTML",
@@ -41,24 +43,43 @@ const Skills = () => {
       Image: "https://img.icons8.com/color/250/python--v1.png",
       name: "Python",
     },
+    {
+      Image: "https://img.icons8.com/color/250/amazon-web-services.png",
+      name: "AWS",
+    },
+    {
+      Image:"https://img.icons8.com/color/480/cloudflare.png",
+      name:"Cloudflare"
+    },
+    {
+      Image:"https://i0.wp.com/community.nodemailer.com/wp-content/uploads/2015/10/n2-2.png?fit=422%2C360&ssl=1",
+      name:"Nodemailer"
+    },{
+      Image:"https://img.icons8.com/color/480/bullish.png",
+      name:"SEO"
+    }
   ]);
+
   return (
     <>
       <section id="skills">
         <div id="skill-heading">Skills</div>
         <div id="skillContainer">
-          {data.map((element) => {
-            return (
-              <div className="skills-card" key={element.name}>
-                <img
-                  src={element.Image}
-                  className="skills-card-img"
-                  
-                />
-                <h4 className="skills-card-name">{element.name}</h4>
-              </div>
-            );
-          })}
+          {data.map((element) => (
+            <motion.div
+              className="skills-card"
+              key={element.name}
+              whileHover={{ scale: 1.1, cursor: "pointer" }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <img
+                src={element.Image}
+                className="skills-card-img"
+                alt={element.name}
+              />
+              <h4 className="skills-card-name">{element.name}</h4>
+            </motion.div>
+          ))}
         </div>
       </section>
       <hr />

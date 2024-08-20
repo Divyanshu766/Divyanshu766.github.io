@@ -18,7 +18,7 @@ const Contact = () => {
                   rel="noreferrer"
                   id="contact-email"
                 >
-                  Divyanshu76688@gmail.com
+                  Divyanshu.rawat.dev@gmail.com
                 </a>
               </span>
             </li>
@@ -79,7 +79,7 @@ const Contact = () => {
                 />
               </a>
             </li>
-            <li>
+            {/* <li>
               {" "}
               <a href="#">
                 <img
@@ -88,10 +88,10 @@ const Contact = () => {
                   target="_blank"
                 />
               </a>
-            </li>
+            </li> */}
             <li>
               {" "}
-              <a href="#">
+              <a href="https://x.com/Divyanshurawat_" target="_blank">
                 <img
                   src="https://i.ibb.co/ph1stHw/icons8-twitter-circled-30.png"
                   alt="twitter"

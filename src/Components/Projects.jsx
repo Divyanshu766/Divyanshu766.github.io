@@ -33,56 +33,50 @@ const Projects = () => {
       netlify: `https://wood-fans-team.vercel.app/`,
     },
     {
-      name: "Dummy Project",
-      image: "https://i.ibb.co/pv229h0/Glossier.jpg",
+      name: "E-Comm",
+      image: "https://i.ibb.co/bQB3bn0/Screenshot-2024-08-20-at-1-55-07-PM.png",
       link: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
       description:
-        "Step into Wood Fans, your foremost destination for premium and sustainable furniture solutions. Elevate your living spaces with our exquisite designs, creating havens of comfort and style that reflect your unique taste. ",
-      tech: [" HTML ", " CSS ", " JavaScript "],
-      github: `https://github.com/Sushil1603/Project-Choice-Rice`,
-      netlify: `https://6509a45460bc91008781faa8--incredible-baklava-73dc03.netlify.app/index.html`,
+        "E-Comm is a full-featured e-commerce platform with email verification, profile picture upload, product purchase, and robust authentication.",
+      tech: ["ReactJS","ExpressJS","MongoDB", "TailwindCSS","NodeMailer","Cloudinary"],
+      github: `https://github.com/DivyanshuRawatDev/ecomm-frontend`,
+      netlify: `https://ecomm-frontend-ecru.vercel.app/`,
     },
   ]);
+
   return (
     <>
       <section id="projects">
-        <div id="projectCard">Projects</div>
+        <h2 id="projectCard">Projects</h2>
         <div id="projectContainer">
           {data.map((element) => {
             return (
               <div key={element.name} className="project-card">
-                <img src={element.image} />
-                <h4 className="project-title">
-                  <span className="project-heading">Title :</span>{" "}
-                  <span className="description">{element.name}</span>
-                </h4>
-                <h5 className="project-description">
-                  <span className="project-heading">Description</span> :{" "}
-                  <span className="description">{element.description}</span>
-                </h5>
-                <h5 className="project-tech-stack">
-                  <span className="project-heading">Tech :</span>{" "}
-                  <span className="description">{element.tech.join(", ")}</span>
-                </h5>
-
-                <div className="links-buttons">
-                  <a
-                    href={element.github}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="project-github-link"
-                  >
-                    Github
-                  </a>
-
-                  <a
-                    href={element.netlify}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="project-deployed-link"
-                  >
-                    Netlify
-                  </a>
+                <img src={element.image} className="project-image" alt={element.name} />
+                <div className="project-content">
+                  <h4 className="project-title">{element.name}</h4>
+                  <p className="project-description">{element.description}</p>
+                  <p className="project-tech-stack">
+                    <strong>Tech Stack:</strong> {element.tech.join(", ")}
+                  </p>
+                  <div className="links-buttons">
+                    <a
+                      href={element.github}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project-link"
+                    >
+                      Github
+                    </a>
+                    <a
+                      href={element.netlify}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project-link"
+                    >
+                      Netlify
+                    </a>
+                  </div>
                 </div>
               </div>
             );

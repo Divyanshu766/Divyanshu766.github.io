@@ -33,9 +33,9 @@ const Home = () => {
             id="resume-button-2"
             onClick={() => {
               const url =
-                "https://drive.google.com/file/d/1Hsmec9IAa6QAOYjHD7jLAcAx59sGopoC/view?usp=sharing";
+                "https://drive.google.com/file/d/1r0hc8FCP-0QK7kAkYqcZpr5oe4iKeHfO/view?usp=sharing";
               const download =
-                "https://drive.google.com/uc?export=download&id=1Hsmec9IAa6QAOYjHD7jLAcAx59sGopoC";
+                "https://drive.google.com/uc?export=download&id=1r0hc8FCP-0QK7kAkYqcZpr5oe4iKeHfO";
               window.open(url);
               window.location.href = download;
             }}
@@ -66,18 +66,18 @@ const Home = () => {
               alt="linkedin"
             />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <img
               src="https://i.ibb.co/qg3Gh7c/icons8-instagram-30.png"
               alt="instagram"
               target="_blank"
             />
-          </a>
-          <a href="#">
+          </a> */}
+          <a href="https://x.com/Divyanshurawat_" target="_blank">
             <img
               src="https://i.ibb.co/ph1stHw/icons8-twitter-circled-30.png"
               alt="twitter"
-              target="_blank"
+              
             />
           </a>
         </div>

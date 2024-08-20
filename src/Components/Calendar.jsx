@@ -42,7 +42,7 @@ const Calendar = () => {
         <GitHubCalendar
           colorScheme={"light"}
           blockSize={blockSize}
-          username="divyanshu766"
+          username="divyanshurawatdev"
           transformData={selectLastHalfYear}
           blockRadius="2"
         />

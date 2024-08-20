@@ -34,9 +34,9 @@ const Navbar = () => {
                 className="nav-link resume"
                 onClick={() => {
                   const url =
-                    "https://drive.google.com/file/d/1Hsmec9IAa6QAOYjHD7jLAcAx59sGopoC/view?usp=sharing";
+                    "https://drive.google.com/file/d/1r0hc8FCP-0QK7kAkYqcZpr5oe4iKeHfO/view?usp=sharing";
                   const download =
-                    "https://drive.google.com/uc?export=download&id=1Hsmec9IAa6QAOYjHD7jLAcAx59sGopoC";
+                    "https://drive.google.com/uc?export=download&id=1r0hc8FCP-0QK7kAkYqcZpr5oe4iKeHfO";
                   window.open(url);
                   window.location.href = download;
                 }}

@@ -5,7 +5,7 @@ const About = () => {
         <div id="intro">
           <div id="myImage">
             <img
-              src="https://i.ibb.co/ZV1KXP3/My-Img.png"
+              src="https://avatars.githubusercontent.com/u/144535826?v=4"
               alt="Me"
               className="home-img"
             />
