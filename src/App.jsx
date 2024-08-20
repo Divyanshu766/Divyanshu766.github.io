@@ -1,28 +1,25 @@
-import "./App.css";
-import About from "./Components/About";
-import Calendar from "./Components/Calendar";
-import Contact from "./Components/Contact";
-import Github from "./Components/Github";
-import Home from "./Components/Home";
-import Navbar from "./Components/Navbar";
-import Projects from "./Components/Projects";
-import Skills from "./Components/Skills";
+import React, { useState } from 'react'
+import './App.css'
+import Navbar from './components/Navbar/Navbar'
+import HomeSection from './components/HomeSection/HomeSection'
+import AboutSection from './components/AboutSection/AboutSection'
+import Skills from './components/Skills/Skills'
+import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
 
 function App() {
   return (
-    <>
+    <div id='App'>
       <Navbar />
-      <div>
-        <Home />
-        <About />
+      <div id='main_wrapper'>
+        <HomeSection />
+        <AboutSection />
         <Skills />
-        <Github />
-        <Calendar />
         <Projects />
         <Contact />
       </div>
-    </>
-  );
+    </div>
+  )
 }
 
-export default App;
+export default App
