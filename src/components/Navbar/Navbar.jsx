@@ -5,10 +5,13 @@ function Navbar() {
   const [burger, setBurger] = useState(false);
 
   const downloadHandle = () => {
-    window.open(
-      "https://drive.google.com/file/d/1LfJPo67T2b3LTWCuHQMT4AyFE1G5n3-w/view?usp=sharing",
-      "_blank"
-    );
+    const viewUrl =
+      "https://drive.google.com/file/d/1LeY8HFItwV2EDy6tHN1CDJYNThNfMo3K/view?usp=sharing";
+    const downloadUrl =
+      "https://drive.google.com/uc?export=download&id=1LeY8HFItwV2EDy6tHN1CDJYNThNfMo3K";
+
+    window.open(viewUrl); // Opens the file in a new tab
+    window.location.href = downloadUrl; // Triggers the download
   };
 
   const [activeSection, setActiveSection] = useState("home");
