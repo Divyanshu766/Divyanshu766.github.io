@@ -50,7 +50,7 @@ function HomeSection() {
                 </div>
             </div>
             <div id='right_home'>
-                <img src="https://masai-resume-builder-user-data.s3.ap-south-1.amazonaws.com/test/profile-image/655656772bea09fa1603f00a/Cm70.png" alt="Home" className="home-img" />
+                <img src="https://avatars.githubusercontent.com/u/144535826?s=400&u=5176263ad7aedd7a3016b3e83db6f972cc10ddde&v=4" alt="Home" className="home-img" />
             </div>
         </div>
     );
